@@ -1,0 +1,257 @@
+/* CSS styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.background-img {
+    background-image: url("/img/guitar1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* Navbar styles */
+.navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 8px;
+    margin: 0 15px;
+}
+
+/* Hero banner styles */
+.hero-banner {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 70px;
+}
+
+.hero-left {
+     display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-left p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-banner h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: rgb(75, 0, 75);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(36, 0, 36);
+    border: none;
+}
+
+/* Card section styles */
+.card-section {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.card-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 180px;
+}
+
+.card h3 {
+    color: #fff;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+/* Quote section styles */
+.background-img-quote {
+    background-image: url("/img/guitar2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-section p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+}
+
+.quote-section #quote-author {
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* Call to action styles */
+.cta-section {
+    background-color: rgba(0, 0, 0, 1.0);
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+
+}
+
+.cta-container {
+    background-color:rgb(75, 0, 75);
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #F9FAF8;
+}
+
+.cta-section h2 {
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.cta-section button {
+    border: 2px solid #F9FAF8;
+    color: #fff;
+    background-color: rgb(75, 0, 75);
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.cta-section button:hover {
+    cursor:pointer;
+    background-color: rgb(36, 0, 36);
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
