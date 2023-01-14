@@ -7,7 +7,7 @@ body {
 }
 
 .background-img {
-    background-image: url("img/guitar1.jpg");
+    background-image: url("./img/guitar1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -154,7 +154,7 @@ button:hover {
 
 /* Quote section styles */
 .background-img-quote {
-    background-image: url("img/guitar2.jpg");
+    background-image: url("./img/guitar2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
